@@ -23,6 +23,7 @@ int judge_num(int num)
 
 int main()
 {
+
     int num = 12344321;
     int ret = judge_num(num);
     if(ret == 1)
