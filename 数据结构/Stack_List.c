@@ -78,6 +78,19 @@ Top(Stack S)
     return 0;
 }
 
+void
+Pop(Stack S)
+{
+    PtrToNode FirstCell;
+
+    if(IsEmpty(S))
+        printf("Empty Stack!");
+    else
+        FirstCell = S->Next;
+        S->Next = FirstCell->Next;
+        free(FirstCell);
+}
+
 int main()
 {
     return 0;
