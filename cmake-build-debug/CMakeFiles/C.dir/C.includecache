@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ningxuhui/Leon/github/C/Stack.h
+Tree.h
+/Users/ningxuhui/Leon/github/C/Tree.h
+
+/Users/ningxuhui/Leon/github/C/Tree.h
+
+/Users/ningxuhui/Leon/github/C/main.c
+stdio.h
+-
+Stack.h
+/Users/ningxuhui/Leon/github/C/Stack.h
+stdlib.h
+-
+Tree.h
+/Users/ningxuhui/Leon/github/C/Tree.h
+
